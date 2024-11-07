@@ -48,7 +48,7 @@ export const experiencesData = [
   },
   {
     title: "Senior Full Stack Developer",
-    location: "The University of Queensland",
+    location: "Brain Station 23",
     description:
       "Brain Station 23 is a homegrown software development company providing state-of-the-art software & IT solutions for fintech, telco, eCommerce, pharma, manufacturing, retail, etc",
     icon: React.createElement(CgWorkAlt),
