@@ -78,7 +78,7 @@ export const projectsData = [
       "logos:express",
     ],
     imageUrl: cryptoCrowdImg,
-    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
+    // githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
     demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
   },
   {
@@ -95,7 +95,7 @@ export const projectsData = [
     ],
     imageUrl: ozdevsImg,
     urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
-    githubLink: "https://github.com/ben04rogers/ozdevs-v2",
+    // githubLink: "https://github.com/ben04rogers/ozdevs-v2",
   },
   {
     title: "Company Asset Trading",
@@ -106,24 +106,6 @@ export const projectsData = [
     imageUrl: assetTradingImg,
     githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
   },
-  // {
-  //   title: "Euphorus",
-  //   description:
-  //     "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
-  //   tags: ["JavaScript", "React", "Bootstrap"],
-  //   icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
-  //   imageUrl: euphorusImg,
-  //   githubLink: "https://github.com/ben04rogers/cab230assignment1",
-  // },
-  // {
-  //   title: "Country Happiness API",
-  //   description:
-  //     "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
-  //   tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
-  //   icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
-  //   imageUrl: euphorusBackendImg,
-  //   githubLink: "https://github.com/ben04rogers/cab230assignment2",
-  // },
   {
     title: "Techprowl Computer Auction",
     description:
@@ -131,18 +113,18 @@ export const projectsData = [
     tags: ["Python", "Flask", "Bootstrap", "SQLite"],
     icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
     imageUrl: techprowlImg,
-    githubLink: "https://github.com/ben04rogers/computer-auction",
+    // githubLink: "https://github.com/ben04rogers/computer-auction",
     urlLink: "https://techprowl.herokuapp.com",
   },
-  {
-    title: "Task Manager Console App",
-    description:
-      "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
-    tags: ["C#"],
-    icons: ["devicon:csharp"],
-    imageUrl: taskManagerImg,
-    githubLink: "https://github.com/ben04rogers/task-manager",
-  },
+  // {
+  //   title: "Task Manager Console App",
+  //   description:
+  //     "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
+  //   tags: ["C#"],
+  //   icons: ["devicon:csharp"],
+  //   imageUrl: taskManagerImg,
+  //   githubLink: "https://github.com/ben04rogers/task-manager",
+  // },
   {
     title: "Family Tree Shortest Path",
     description:
@@ -150,7 +132,7 @@ export const projectsData = [
     tags: ["Python"],
     icons: ["logos:python"],
     imageUrl: familyTreeImg,
-    githubLink: "https://github.com/ben04rogers/breadth-first-search",
+    // githubLink: "https://github.com/ben04rogers/breadth-first-search",
     demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
   },
   {
@@ -160,7 +142,7 @@ export const projectsData = [
     tags: ["C"],
     icons: ["devicon:c"],
     imageUrl: binaryGameImg,
-    githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
+    // githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
     demoLink: "https://www.youtube.com/watch?v=A6n6XDk4Unw&feature=youtu.be",
   },
 ] as const;
